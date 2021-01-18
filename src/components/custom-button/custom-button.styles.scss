@@ -13,8 +13,16 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
-  &.google-button {
+  &:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  &.google-sign-in {
     background-color: #4285f4;
     color: white;
 
@@ -24,9 +32,15 @@
     }
   }
 
-  &:hover {
+  &.inverted {
     background-color: white;
     color: black;
     border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border: none;
+    }
   }
 }
