@@ -8,5 +8,6 @@
   "cSpell.words": [
     "accumalated",
     "quantity"
-  ]
+  ],
+  "editor.fontLigatures": true,
 }
